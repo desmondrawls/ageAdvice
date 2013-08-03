@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age ain't nothing but a number </title>
+    <head>
+<script type="text/javascript">
+	function whenPageLoads()
+	{
+		alert("Would you like some Life Advice?");
+	}
+
+
+   var retVal = confirm("Do you want to continue ?");
+   if( retVal == true ){
+      alert("Would you like some Life Advice?");
+	  return true;
+   }else{
+      alert("User does not want to continue!");
+	  return false;
+   }
+
+</script>
+</head>
+</head>
+<body onload="whenPageLoads()"> <!--onload functions goes inside body-->
+	<script type="text/javascript">
+
+
+				var age = prompt("what is your age" , "");
+				document.write("You're" + " " + age + " " +"years old!<br/>");
+				if(age< 18)
+        {
+            document.write("Still Wet Behind the Ear!");
+        } else if (age <29)
+        {
+            document.write("Welcome to young adulthood. You can vote. DON'T smoke just because you legally can now.");   
+        } else if (age < 39)
+        {
+            document.write("It's time to start getting serious. Sprriishh YEAH RIGHT!");
+        } else if (age < 49)
+        {
+            document.write("Time to Switch Careers. Pick up a new hobby.Make sure you're saving!");
+        } else if (age< 59)
+        {
+            document.write("Enjoy life!  You're doing well.");
+        } else if (age <69)
+        {
+            document.write("60 is the new 40.  Do something exciting!");
+        }else 
+        {
+        	document.write("Fountain of Youth? What's Your Secret!?");
+        }
+
+
+        
+
+
+        
+        var confirmation = confirm("Shall I exit this program?")
+		document.write(confirmation);
+
+		if(confirmation== true) 
+		{
+			document.write("Exiting Application");
+		}	else
+		{
+			document.write("Cancel Exit");
+		}
+
+	</script>
+</body>
+</html>
